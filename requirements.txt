@@ -1,6 +1,5 @@
 # requirements.txt
 streamlit
 torch==2.1.2        # ⚠️ stick to a CPU wheel
-torchvision   # only if you use torchvision transforms
 pillow
 numpy
