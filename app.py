@@ -2,7 +2,6 @@ import streamlit as st
 import torch
 import numpy as np
 from PIL import Image
-from torchvision import transforms
 
 MODEL_PATH = "mnist_cgan_G.pt"
 NZ         = 100   # latent length – must match training
