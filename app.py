@@ -3,6 +3,8 @@ import torch
 import numpy as np
 from PIL import Image
 
+torch.classes.__path__ = []
+
 MODEL_PATH = "mnist_cgan_G.pt"
 NZ         = 100   # latent length – must match training
 EMB_DIM    = 50    # ditto
