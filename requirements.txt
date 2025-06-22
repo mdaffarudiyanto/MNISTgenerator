@@ -1,4 +1,3 @@
-# requirements.txt
 streamlit
 torch==2.1.2        # ⚠️ stick to a CPU wheel
 pillow
