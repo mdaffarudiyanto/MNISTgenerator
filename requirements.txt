@@ -1,4 +1,4 @@
 streamlit
-torch==2.6.0        # ⚠️ stick to a CPU wheel
+torch==2.7.1+cpu        # ⚠️ stick to a CPU wheel
 pillow
 numpy
