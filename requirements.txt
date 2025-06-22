@@ -1,0 +1,6 @@
+# requirements.txt
+streamlit
+torch==2.3.0+cpu          # ⚠️ stick to a CPU wheel
+torchvision==0.18.0+cpu   # only if you use torchvision transforms
+pillow
+numpy
